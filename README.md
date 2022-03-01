@@ -21,7 +21,7 @@
 
 # Client owned conditional rendering
 - A través del contexto de autorización disponemos de acceso para el ID del usuario logueado
-- A través del servidor disponemos del ID del usuario que ha creado un item:
+- A través de los datos de la API disponemos del ID del creador de un item:
   ````jsx
   {
     elm.owner === user._id && <p>Is owned</p>
