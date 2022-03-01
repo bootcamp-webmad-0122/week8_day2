@@ -1,0 +1,8 @@
+.CoasterCard {
+    margin-bottom: 30px;
+}
+
+.CoasterCard img {
+    height: 200px;
+    object-fit: cover;
+}
