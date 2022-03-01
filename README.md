@@ -12,7 +12,7 @@
       return config
   })
   ````
-- En servidor, el Middleware de JWT verifica el token y genera la propiedad `req.payload` con los datos del usuario logueado:
+- En servidor, el Middleware de `express-jwt` verifica el token y genera la propiedad `req.payload` con los datos del usuario logueado:
   ````javascript
   router.post('/whatever', isAuthenticated, (req, res) => {
       console.log('ID usuario logueado:', req.payload._id)
